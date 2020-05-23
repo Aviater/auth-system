@@ -1,0 +1,35 @@
+body {
+    background-color: #1f1f1f;
+}
+
+p, h1, h2, h3, h4, label {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.bm-wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    left: 50%;
+}
+
+.bm-wrapper h3 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.bm-landing-page,
+.bm-about-page {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bm-about-page h2 {
+    margin-bottom: 50px;
+}
+
+.bm-highlight {
+    color: crimson;
+}

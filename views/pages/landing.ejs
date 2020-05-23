@@ -1,0 +1,13 @@
+<%- include('../partials/header') %>
+<%- include('../partials/navbar') %>
+
+<div class="bm-landing-page">
+    <h2>Hey <span class="bm-highlight"><%= username %></span>, Welcome to The Landing Page!</h2>
+    <div class="bm-wrapper">
+        <a href=" <%= '/about?username=' + username %>">
+            <button class="btn btn-info">About this app</button>
+        </a
+    </div>
+</div>
+
+<%- include('../partials/footer') %>

@@ -1,0 +1,19 @@
+<%- include('../partials/header') %>
+
+<div class="container">
+    <div class="bm-wrapper">
+        <form class="bm-form" action="/signup" method="POST">
+            <div class="form-group">
+                <label for="bm-form-username">Username</label>
+                <input required name="username" type="email" class="form-control" id="bm-signup-username">
+            </div>
+            <div class="form-group">
+                <label for="bm-form-password">Password</label>
+                <input required name="password" type="password" class="form-control" id="bm-signup-password">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+<%- include('../partials/footer') %>
